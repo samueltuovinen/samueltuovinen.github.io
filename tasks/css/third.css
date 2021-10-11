@@ -1,0 +1,17 @@
+header {
+	background-color: black;
+	padding: 5px;
+	color: white;
+	text-align: center;
+}
+nav {
+	background-color: darkgray;
+	padding: 2px;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+}
