@@ -1,3 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	width: 99%;
+	margin-right: auto;
+	margin-left: auto;
+}
 header {
 	background-color: black;
 	padding: 5px;
@@ -5,7 +13,7 @@ header {
 	text-align: center;
 }
 nav {
-	background-color: darkgray;
+	background-color: dimgrey;
 	padding: 2px;
 	text-align: center;
 }
@@ -14,4 +22,39 @@ nav ul {
 }
 nav li {
 	display: inline;
+}
+nav a:hover {
+	color: red;
+}
+.navigation {
+	float: left;
+	width: 30%;
+	background-color: darkgray;
+	padding: 20px;
+	height: 400px;
+}
+.navigation ul {
+	list-style-type: none;
+}
+.navigation a:hover{
+	color: red;
+}
+article {
+	float: left;
+	width: 70%;
+	background-color: ghostwhite;
+	padding: 20px;
+	height: 200px;
+}
+
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+footer {
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 2px;
 }
