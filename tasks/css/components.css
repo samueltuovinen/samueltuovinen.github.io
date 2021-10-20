@@ -1,0 +1,15 @@
+
+.container-fluid {
+	    box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        height: 120px;
+        border: 20px solid lightgray;
+        background: lightgray;
+  
+}
+.center {
+	border: 10px solid gray;
+	background-color: gray;
+	text-align: center;
+}
