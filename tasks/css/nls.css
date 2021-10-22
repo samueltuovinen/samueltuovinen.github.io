@@ -11,8 +11,10 @@ h1 {
 	text-align: center;
 }
 .col-4 {
-	border: 2px solid white;
-	height: 500px;
+	height: 600px;
 	padding: 10px;
 	text-align: center;
+}
+footer {
+	margin-left: 10px;
 }
