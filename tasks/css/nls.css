@@ -25,3 +25,10 @@ footer {
 hr {
 	height: 2px;
 }
+.col-sm-6 {
+	border: 2px solid wheat;
+	text-align: center;
+	padding: 10px;
+	height: 60px;
+
+}
