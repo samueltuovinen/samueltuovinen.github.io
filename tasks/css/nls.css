@@ -1,6 +1,6 @@
 body {
 	background: black;
-	color: white;
+	color: darkred;
 }
 h1 {
 	color: darkred;
@@ -14,4 +14,5 @@ h1 {
 	border: 2px solid white;
 	height: 500px;
 	padding: 10px;
+	text-align: center;
 }
