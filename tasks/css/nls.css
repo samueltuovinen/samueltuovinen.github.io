@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background: black;
 	color: darkred;
@@ -15,6 +18,7 @@ h1 {
 	padding: 10px;
 	text-align: center;
 }
+
 footer {
 	margin-left: 10px;
 }
