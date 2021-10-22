@@ -13,4 +13,5 @@ h1 {
 .col-4 {
 	border: 2px solid white;
 	height: 500px;
+	padding: 10px;
 }
