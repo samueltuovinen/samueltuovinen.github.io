@@ -1,15 +1,17 @@
-
-.container-fluid {
-	    box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        height: 120px;
-        border: 20px solid lightgray;
-        background: lightgray;
-  
+header {
+	background: lightgrey;
+	height: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
-.center {
-	border: 10px solid gray;
+.col-sm-3 {
 	background-color: gray;
+	text-align: center;
+	padding: 10px;
+	margin-top: 60px;
+
+}
+.col-sm-4 {
+	
 	text-align: center;
 }
