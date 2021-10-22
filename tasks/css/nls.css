@@ -13,7 +13,7 @@ h1 {
 .header {
 	text-align: center;
 }
-.col-4 {
+.col-sm-4 {
 	height: 600px;
 	padding: 10px;
 	text-align: center;
@@ -26,9 +26,9 @@ hr {
 	height: 2px;
 }
 .col-sm-6 {
-	border: 2px solid wheat;
 	text-align: center;
-	padding: 10px;
-	height: 60px;
+	margin-top: 10px;
+	height: 200px;
+	font-size: 20px;
 
 }
