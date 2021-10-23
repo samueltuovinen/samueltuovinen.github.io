@@ -1,17 +1,22 @@
-header {
-	background: lightgrey;
-	height: 200px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.col-sm-3 {
-	background-color: gray;
+.jumbotron {
 	text-align: center;
-	padding: 10px;
-	margin-top: 60px;
+}
+h1 {
+	margin: auto;
+	width: 50%;
+	background-color: gray;
+	padding: 20px;
+}
+hr {
+	clear: both;
+	visibility: hidden;
+}
 
 }
 .col-sm-4 {
 	
 	text-align: center;
+}
+.col-sm-8 {
+	padding: 10px;
 }
