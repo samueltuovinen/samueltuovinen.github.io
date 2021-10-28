@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/styletable.css">
+
+		<title>Table and forms</title>
+	</head>
+	<body>
+		<table>
+		<tbody>
+			<tr>
+				<th colspan="5">Premier League Big Six</th>
+			</tr>
+			<tr>
+				<th>Club</th>
+				<th>City</th>
+				<th>Founded</th>
+				<th>League titles</th>
+				<th>Last title</th>
+			</tr>
+			<tr>
+				<td>Manchester United</td>
+				<td rowspan="2">Manchester</td>
+				<td>1878</td>
+				<td>20</td>
+				<td>2013</td>
+			</tr>
+			<tr>
+				<td>Manchester City</td>
+				<td>1880</td>
+				<td>7</td>
+				<td>2021</td>
+			</tr>
+			<tr>
+				<td>Liverpool FC</td>
+				<td>Liverpool</td>
+				<td>1892</td>
+				<td>19</td>
+				<td>2020</td>
+			</tr>
+			<tr>
+				<td>Chelsea FC</td>
+				<td rowspan="3">London</td>
+				<td>1905</td>
+				<td>6</td>
+				<td>2017</td>
+			</tr>
+			<tr>
+				<td>Arsenal FC</td>
+				<td>1886</td>
+				<td>13</td>
+				<td>2004</td>
+			</tr>
+			<tr>
+				<td>Tottenham Hotspur</td>
+				<td>1882</td>
+				<td>2</td>
+				<td>1961</td>
+			</tr>
+		</tbody>
+		</table>
+		<br>
+
+
+		<fieldset>
+			<h2>Order newsletter</h2>
+
+		<form action="/action_page.php">
+			<label>First name:
+				<input type="text" id="fname" name="fname">
+			</label>
+		<br>
+			<label>Last name:
+				<input type="text" id="lname" name="lname">
+			</label>
+		<br>
+			<label>Email:
+				<input type="email" id="email" name="email">
+			</label>
+		<br>
+			<label for="teams">Select your favorite team:</label>
+			<select name="teams" id="teams">
+				<option value="united">Manchester United</option>
+				<option value="city">Manchester City</option>
+				<option value="liverpool">Liverpool</option>
+				<option value="chelsea">Chelsea FC</option>
+				<option value="arsenal">Arsenal FC</option>
+				<option value="tottenham">Tottenham Hotspur</option>
+			</select>
+		<br>
+			<textarea name="message" rows="4" cols="80">Send a message</textarea>
+		<br>
+			<input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+			<label for="newsletter">Signup for newsletter</label>
+		<br>
+		<input type="submit" value="Submit">
+		</form>
+		</fieldset>
+	</body>
+</html>
+
+
+
+
+
+
