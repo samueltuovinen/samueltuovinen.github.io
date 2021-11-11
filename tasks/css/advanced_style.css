@@ -2,6 +2,7 @@
 	text-align: center;
 	border: solid 3px;
 	box-shadow: 5px 10px;
+	background-image: url('nls/flames.jpeg');
 }
 .textshadow {
 	text-align: center;
