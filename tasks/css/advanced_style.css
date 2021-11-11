@@ -1,11 +1,18 @@
 .boxshadow {
+	border: solid 3px darkred;
+	box-shadow: 5px 10px darkred;
 	text-align: center;
-	border: solid 3px;
-	box-shadow: 5px 10px;
-	background-image: url('nls/flames.jpeg');
 }
+
+
+
 .textshadow {
 	text-align: center;
 	padding: 30px;
 	text-shadow: 2px 2px darkred;
+	background-image: url('../nls/flames.jpeg');
+  	height: 100px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
 }
