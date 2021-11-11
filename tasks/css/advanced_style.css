@@ -1,0 +1,10 @@
+.boxshadow {
+	text-align: center;
+	border: solid 3px;
+	box-shadow: 5px 10px;
+}
+.textshadow {
+	text-align: center;
+	padding: 30px;
+	text-shadow: 2px 2px darkred;
+}
