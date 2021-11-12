@@ -1,3 +1,10 @@
+@media only screen and (max-width: 800px) {
+	body {
+		background-color: black;
+		color: white;
+	}
+}
+
 .boxshadow {
 	border: solid 3px darkred;
 	box-shadow: 5px 10px darkred;
@@ -15,4 +22,9 @@
   	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
+}
+
+a:hover {
+	color: red;
+	transition-duration: 2s;
 }
