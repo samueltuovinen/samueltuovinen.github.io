@@ -30,12 +30,15 @@ h1 {
 	display: inline-block;
 }
 .card2:hover {
-	background: url(..images/new.jpeg);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 	background-color: navy;
 	color: white;
 	transform: scale(1.1);
 }
+.card2:hover .img-hover {
+	display: inline;
+}
+
 .container {
 	padding: 10px 16px;
 	text-align: center;
