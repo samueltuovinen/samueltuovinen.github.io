@@ -30,7 +30,7 @@ h1 {
 	display: inline-block;
 }
 .card2:hover {
-	background: url(../images/new.jpeg);
+	background: url(..images/new.jpeg);
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 	background-color: navy;
 	color: white;
