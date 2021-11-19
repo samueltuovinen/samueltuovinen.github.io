@@ -11,6 +11,32 @@ h1 {
 	font-size: 4em;
 	font-family: Garamond;
 }
-.col-sm-4 {
-	border: 2px solid black;
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 1s;
+	margin: 10px;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	background-color: navy;
+	color: white;
+	transform: scale(1.1);
+}
+.card2 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 1s;
+	margin: 10px;
+	display: inline-block;
+}
+.card2:hover {
+	background: url(../images/new.jpeg);
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	background-color: navy;
+	color: white;
+	transform: scale(1.1);
+}
+.container {
+	padding: 10px 16px;
+	text-align: center;
 }
