@@ -26,12 +26,3 @@ h1 {
 	color: white;
 	transform: scale(1.1);
 }
-.card2 {
-	width: 100%;
-	height: auto;
-	background: url('/image.old.jpeg') no-repeat;
-	display: inline-block;
-}
-.card2:hover {
-	background: url('../image/new.jpeg') no-repeat;
-}
