@@ -1,0 +1,16 @@
+body {
+	font-family: garamond;
+}
+
+header {
+	text-align: center;
+	margin: 25px;
+	color: navy;
+}
+h1 {
+	font-size: 4em;
+	font-family: Garamond;
+}
+.col-sm-4 {
+	border: 2px solid black;
+}
