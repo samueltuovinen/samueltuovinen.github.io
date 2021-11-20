@@ -29,3 +29,9 @@ h1 {
 	color: white;
 	transform: scale(1.1);
 }
+.prize {
+	border: 2px solid navy;
+	background-color: navy;
+	color: white;
+	margin: 40px;
+}
