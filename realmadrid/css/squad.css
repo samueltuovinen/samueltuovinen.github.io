@@ -5,6 +5,11 @@
 
 body {
 	font-family: garamond;
+	background-image: url('../images/realbg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35%;
+	background-attachment: fixed;
 }
 .squad {
 	text-align: center;
