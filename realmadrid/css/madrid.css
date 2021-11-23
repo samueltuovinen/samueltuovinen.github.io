@@ -65,8 +65,10 @@ h3 {
 
 #laligatable td, #laligatable th {
 	border: 1px solid #ddd;
-	padding: 8px;
 	text-align: center;
+}
+#laligatable td {
+	padding: 8px;
 }
 .realsevilla {
 	width: 60%;
@@ -97,22 +99,36 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 	border-collapse: collapse;
-	font-size: 0.875em;
+	font-size: 1em;
 	margin-bottom: 10px;
 }
 #uefatable th {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background-color: navy;
 	color: white;
 }
 #uefatable td, #uefatable th {
-	
-	padding: 8px;
 	text-align: center;
+}
+#uefatable td {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 #uefatable tr:nth-child(even){color: navy;}
 #uefatable tr:nth-child(odd){background-color: navy; color: white;}
 #uefatable tr:hover {background-color: lightblue; color: black;}
+
+.realinter {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.uefagame p {
+	text-align: center;
+}
 
 
