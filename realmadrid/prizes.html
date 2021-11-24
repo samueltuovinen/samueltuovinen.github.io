@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/prizez.css">
 
+		<script src="https://kit.fontawesome.com/70a019db96.js" crossorigin="anonymous"></script>
+
 		<title>Prizes</title>
 	</head>
 
@@ -39,88 +41,60 @@
      	<div class="boxshadow">
 			<h2>Win your favorite player jersey!</h2>
      		<p>Order a newsletter and you have a chance to win your favorite player jersey. Also, smaller surprise gifts will be drawn.</p>
+     		<img src="images/jersey.webp" alt="Real Madrid white jersey" class="center">
 		</div>
 
-		<div class="row">
-			<div class="col-sm-6">
-				<div class="container">
-					<h2>Subscribe to our Newsletter</h2>
-
-					<form action="https://www.w3schools.com/action_page.php">
-						<div class="row">
-							<div class="col-25">
-								<label for="fanme">First Name</label>
-							</div>
-							<div class="col-75">
-								<input type="text" id="fname" name="firstname" placeholder="Your firstname..">
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-25">
-								<label for="lname">Last Name</label>
-							</div>
-							<div class="col-75">
-								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-25">
-								<label for="email">Email</label>
-							</div>
-							<div class="col-75">
-								<input type="email" id="email" name="email" placeholder="Your email..">
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-25">
-								<label for="player">Favorite Player</label>
-							</div>
-							<div class="col-75">
-								<select id="player" name="player">
-									<option value="courtois">1 Thibault Courtois</option>
-									<option value="carvajal">2 Dani Carvajal</option>
-									<option value="militao">3 Eder Militão</option>
-									<option value="alaba">4 David Alaba</option>
-									<option value="vallejo">5 Jesus Vallejo</option>
-									<option value="nacho">6 Nacho</option>
-									<option value="hazard">7 Eden Hazard</option>
-									<option value="kroos">8 Toni Kroos</option>
-									<option value="benzema">9 Karim Benzema</option>
-									<option value="modric">10 Luka Modric</option>
-									<option value="asensio">11 Marco Asensio</option>
-									<option value="marcelo">12 Marcelo</option>
-									<option value="lunin">13 Andri Lunin</option>
-									<option value="casemiro">14 Casemiro</option>
-									<option value="valverde">15 Federico Valverde</option>
-									<option value="jovic">16 Luka Jovic</option>
-									<option value="lucas">17 Lucas Vázquez</option>
-									<option value="bale">18 Gareth Bale</option>
-									<option value="ceballos">19 Dani Ceballos</option>
-									<option value="vinicius">20 Vinicius JR</option>
-									<option value="rodrygo">21 Rodrygo</option>
-									<option value="isco">22 Isco</option>
-									<option value="mendy">23 Ferland Mendy</option>
-									<option value="diaz">24 Mariano Diaz</option>
-									<option value="camavinga">25 E. Camavinga</option>
-								</select>
-							</div>
-						</div>
-						<input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
-						<label for="newsletter">Signup for newsletter</label>
-
-						<div class="row">
-							<input type="submit" name="submit">
-						</div>
-					</form>
-				</div>
+		<form action="https://www.w3schools.com/action_page.php">
+			<div class="container">
+				<h2>Subscribe to our Newsletter</h2>
 			</div>
-			<div class="col-sm-6">
-				<img src="images/jersey.webp" alt="Real Madrid white jersey" class="center">
+
+			<div class="container" style="background-color: white; opacity: .4;">
+				<input type="text" placeholder="First Name" name="fname" required>
+				<input type="text" placeholder="Last Name" name="lmane" required>
+				<input type="email" placeholder="Email" name="email" required>
+				<select id="player" name="player">
+					<option value="courtois">1 Thibault Courtois</option>
+						<option value="carvajal">2 Dani Carvajal</option>
+						<option value="militao">3 Eder Militão</option>
+						<option value="alaba">4 David Alaba</option>
+						<option value="vallejo">5 Jesus Vallejo</option>
+						<option value="nacho">6 Nacho</option>
+						<option value="hazard">7 Eden Hazard</option>
+						<option value="kroos">8 Toni Kroos</option>
+						<option value="benzema">9 Karim Benzema</option>
+						<option value="modric">10 Luka Modric</option>
+						<option value="asensio">11 Marco Asensio</option>
+						<option value="marcelo">12 Marcelo</option>
+						<option value="lunin">13 Andri Lunin</option>
+						<option value="casemiro">14 Casemiro</option>
+						<option value="valverde">15 Federico Valverde</option>
+						<option value="jovic">16 Luka Jovic</option>
+						<option value="lucas">17 Lucas Vázquez</option>
+						<option value="bale">18 Gareth Bale</option>
+						<option value="ceballos">19 Dani Ceballos</option>
+						<option value="vinicius">20 Vinicius JR</option>
+						<option value="rodrygo">21 Rodrygo</option>
+						<option value="isco">22 Isco</option>
+						<option value="mendy">23 Ferland Mendy</option>
+						<option value="diaz">24 Mariano Diaz</option>
+						<option value="camavinga">25 E. Camavinga</option>
+				</select>
+				<label>
+					<input type="checkbox" checked="checked" name="subscribe"> Sign up for Newsletter
+				</label>
 			</div>
-		</div>
+
+			<div class="container">
+				<input type="submit" value="Subscribe">
+			</div>
+		</form>
+
+		<footer>
+			<i class="fab fa-instagram fa-lg">@realmadrid</i>
+			<i class="fab fa-twitter fa-lg">@realmadrid</i>
+			<i class="fab fa-facebook fa-lg"> @Real Madrid C.F.</i>
+		</footer>
 
 
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

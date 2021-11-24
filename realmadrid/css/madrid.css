@@ -136,5 +136,16 @@ h3 {
 .uefagame p {
 	text-align: center;
 }
+footer {
+	width: 100%;
+	background-color: navy;
+	color: white;
+	margin-top: 40px;
+	padding: 10px;
+	text-align: center;
+}
+i {
+	padding-right: 10px;
+}
 
 
